@@ -1,0 +1,147 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #edf1ff;
+  background: linear-gradient(160deg, #2b3fb7 0%, #4f63d7 55%, #7a8cff 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.page {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1.2rem 0.9rem 2rem;
+}
+
+.hero {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 1rem 1.1rem;
+}
+
+.kicker {
+  color: #ffd45f;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+}
+
+.hero h1 {
+  margin: 0;
+}
+
+.hero p {
+  margin: 0.35rem 0 0;
+}
+
+.panel {
+  margin-top: 0.9rem;
+  border-radius: 18px;
+  background: #ffffff;
+  color: #17275a;
+  padding: 0.9rem;
+}
+
+.panel h2 {
+  margin: 0 0 0.7rem;
+}
+
+.screen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.75rem;
+}
+
+.phone-card {
+  border-radius: 22px;
+  background: #f4f7ff;
+  border: 1px solid #d7e0ff;
+  min-height: 270px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.35rem;
+}
+
+.phone-notch {
+  width: 34%;
+  height: 8px;
+  background: #d5dcf7;
+  border-radius: 999px;
+  margin: 0.25rem auto 0.5rem;
+}
+
+.phone-content {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #4158ca 0%, #3448ad 35%, #ffffff 35.1%, #ffffff 100%);
+  color: #10235b;
+  flex: 1;
+  padding: 0.6rem;
+}
+
+.screen-id {
+  color: #ffe08f;
+  font-weight: 700;
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.phone-content h3 {
+  margin: 0.4rem 0 0.2rem;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.screen-flow {
+  margin: 0;
+  color: #d9e2ff;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.phone-content ul {
+  margin: 0.7rem 0 0;
+  padding-left: 1rem;
+}
+
+.phone-content li {
+  color: #28407f;
+  font-size: 0.82rem;
+  margin-bottom: 0.3rem;
+}
+
+.phone-home-indicator {
+  width: 42%;
+  height: 8px;
+  background: #c6d0f5;
+  border-radius: 999px;
+  margin: 0.45rem auto 0.2rem;
+}
+
+.panel.missing {
+  background: #fff9f0;
+}
+
+.missing-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.missing-list li {
+  border: 1px solid #ffddb3;
+  border-radius: 11px;
+  padding: 0.55rem 0.65rem;
+}
+
+.missing-list span {
+  display: block;
+  color: #5d5f7b;
+  font-size: 0.9rem;
+}

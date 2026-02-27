@@ -1,0 +1,14 @@
+{
+  "name": "airi-react-express",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
