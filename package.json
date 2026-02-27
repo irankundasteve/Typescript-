@@ -1,14 +1,9 @@
 {
-  "name": "airi-react-express",
+  "name": "airi-food-ui",
   "private": true,
-  "version": "0.2.0",
-  "type": "module",
+  "version": "0.1.0",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
-    "dev": "node dist/server.js"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
+    "dev": "python3 -m http.server 4173"
   }
 }
